@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="stu-04-demo01-authorization-server-with-resource-owner-password-credentials" />
         <module name="demo01" />
+        <module name="stu-04-demo01-resource-server" />
         <module name="java-nio-demo01" />
         <module name="stu-03-rabbitmq" />
         <module name="stu-02" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="stu-01" target="1.8" />
+      <module name="stu-01" target="1.5" />
+      <module name="stu-04-oath2" target="1.8" />
+      <module name="stu-04-OAUTH2" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +25,8 @@
       <module name="demo01" options="-parameters" />
       <module name="java-nio-demo01" options="" />
       <module name="stu-03-rabbitmq" options="-parameters" />
+      <module name="stu-04-demo01-authorization-server-with-resource-owner-password-credentials" options="" />
+      <module name="stu-04-oath2" options="-parameters" />
     </option>
   </component>
 </project>

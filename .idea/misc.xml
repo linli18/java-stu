@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/stu-02/demo01/pom.xml" />
         <option value="$PROJECT_DIR$/stu-03-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/java-nio-demo01/pom.xml" />
         <option value="$PROJECT_DIR$/java-nio/pom.xml" />
         <option value="$PROJECT_DIR$/stu-01/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-OAUTH2/pom.xml" />
       </set>
     </option>
   </component>
