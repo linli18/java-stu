@@ -39,8 +39,11 @@ public class OAuth2AuthorizationServerConfig extends AuthorizationServerConfigur
                 inMemory()
                 //创建一个 Client 配置。
                 .withClient("clientapp").secret("112233")
-                .authorizedGrantTypes("password")                //密码模式
-                .scopes("read_userinfo", "read_contacts");
+                .authorizedGrantTypes("authorization_code") //授权码模式
+                .redirectUris("http://127.0.0.1:9090/callback") //配置回调地址，选填
+                .scopes("read_userinfo", "read_contacts") //可授权的Scope
+//                .and().withClient()       //可继续配置新的client
+                  ;
     }
 
     /**

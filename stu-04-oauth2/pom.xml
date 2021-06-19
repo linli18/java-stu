@@ -14,6 +14,9 @@
     <modules>
         <module>stu-04-demo01-authorization-server-with-resource-owner-password-credentials</module>
         <module>stu-04-demo01-resource-server</module>
+        <module>stu-04-demo01-authorization-server-with-authorization-code</module>
+        <module>stu-04-demo01-authorization-server-with-implicit</module>
+        <module>stu-04-demo01-authorization-server-with-client-credentials</module>
     </modules>
 
     <properties>

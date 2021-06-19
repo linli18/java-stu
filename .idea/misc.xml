@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/stu-02/demo01/pom.xml" />
         <option value="$PROJECT_DIR$/stu-03-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo01-authorization-server-with-authorization-code/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo01-authorization-server-with-implicit/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo01-authorization-server-with-client-credentials/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

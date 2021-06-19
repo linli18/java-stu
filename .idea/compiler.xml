@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stu-04-demo01-authorization-server-with-resource-owner-password-credentials" />
+        <module name="stu-04-demo01-authorization-server-with-authorization-code" />
         <module name="demo01" />
         <module name="stu-04-demo01-resource-server" />
         <module name="java-nio-demo01" />
         <module name="stu-03-rabbitmq" />
+        <module name="stu-04-demo01-authorization-server-with-implicit" />
         <module name="stu-02" />
+        <module name="stu-04-demo01-authorization-server-with-client-credentials" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

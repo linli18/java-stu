@@ -1,19 +1,21 @@
 package com.linli.springboot.stu04.authorizationserverdemo.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
-import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 
 @Configuration
 @EnableAuthorizationServer //声明开启 OAuth 授权服务器的功能
 public class OAuth2AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
-    @Autowired
-    private AuthenticationManager authenticationManager;
+
+    @Bean
+    public static NoOpPasswordEncoder passwordEncoder() {
+        return (NoOpPasswordEncoder) NoOpPasswordEncoder.getInstance();
+    }
 
     /**
      * 设置 /oauth/check_token 端点，通过认证后可访问
@@ -39,17 +41,10 @@ public class OAuth2AuthorizationServerConfig extends AuthorizationServerConfigur
                 inMemory()
                 //创建一个 Client 配置。
                 .withClient("clientapp").secret("112233")
-                .authorizedGrantTypes("password")                //密码模式
-                .scopes("read_userinfo", "read_contacts");
+                .authorizedGrantTypes("client_credentials") //客户端模式，客户端模式下，无需 Spring Security 提供用户的认证功能。
+                .scopes("read_userinfo", "read_contacts") //可授权的Scope
+//                .and().withClient()       //可继续配置新的client
+                  ;
     }
 
-    /**
-     * 配置使用的 AuthenticationManager 实现用户认证的功能
-     * @param endpoints
-     * @throws Exception
-     */
-    @Override
-    public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
-        endpoints.authenticationManager(authenticationManager);
-    }
 }

@@ -19,6 +19,10 @@ public class OAuth2ResourceServerConfig extends ResourceServerConfigurerAdapter 
         http.authorizeRequests()
                 //设置/login无需权限访问
                 .antMatchers("/login").permitAll()
+                //设置回调地址无需权限访问
+                .antMatchers("/callback").permitAll()
+                //设置回调地址无需权限访问
+                .antMatchers("/callback02").permitAll()
                 //设置其他请求需要认证后访问
                 .anyRequest().authenticated();
     }
