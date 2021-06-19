@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/stu-01/stu-01.iml" filepath="$PROJECT_DIR$/stu-01/stu-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stu-04-oauth2/stu-04-demo02-authorization-server-with-remove-access-and-refresh-token/stu-04-demo02-authorization-server-with-remove-access-and-refresh-token.iml" filepath="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo02-authorization-server-with-remove-access-and-refresh-token/stu-04-demo02-authorization-server-with-remove-access-and-refresh-token.iml" />
     </modules>
   </component>
 </project>

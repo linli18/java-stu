@@ -11,6 +11,11 @@
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo01-authorization-server-with-authorization-code/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo01-authorization-server-with-implicit/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo01-authorization-server-with-client-credentials/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo02-authorization-server-with-resource-owner-password-credentials/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo02-authorization-server-with-remove-access-and-refresh-oken/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo03-authorization-server-by-jdbc-store/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo02-authorization-server-with-remove-access-and-refresh-token/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo03-authorization-server-by-redis-store/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
