@@ -21,6 +21,8 @@
         <module>stu-04-demo03-authorization-server-by-jdbc-store</module>
         <module>stu-04-demo03-authorization-server-by-redis-store</module>
         <module>stu-04-demo03-authorization-server-by-jwt-store</module>
+        <module>stu-04-demo04-authorization-server-on-sso</module>
+        <module>stu-04-demo04-resource-server-on-sso</module>
     </modules>
 
     <properties>
