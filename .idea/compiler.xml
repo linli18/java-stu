@@ -12,6 +12,7 @@
         <module name="stu-04-demo01-resource-server" />
         <module name="java-nio-demo01" />
         <module name="stu-03-rabbitmq" />
+        <module name="stu-04-demo03-authorization-server-by-jwt-store" />
         <module name="stu-04-demo01-authorization-server-with-implicit" />
         <module name="stu-02" />
         <module name="stu-04-demo01-authorization-server-with-client-credentials" />

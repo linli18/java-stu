@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo03-authorization-server-by-jdbc-store/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo02-authorization-server-with-remove-access-and-refresh-token/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo03-authorization-server-by-redis-store/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo03-authorization-server-by-jwt-store/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
