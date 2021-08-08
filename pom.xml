@@ -12,6 +12,8 @@
         <module>stu-01</module>
         <module>stu-02</module>
         <module>stu-04-oauth2</module>
+        <module>stu-05-dynamic-datasource</module>
+        <module>stu-05-dynamic-datasource/stu-05-dynamic-datasource-baomidou-01</module>
     </modules>
 
 

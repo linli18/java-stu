@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    dynamic:
+      datasource:
+        orders:
+          url: jdbc:mysql://127.0.0.1:3306/test_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password:
+        users:
+          url: jdbc:mysql://127.0.0.1:3306/test_user?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+          driver-class-name: com.mysql.jdbc.Driver
+          username: root
+          password:
+      primary: users
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  type-aliases-package: com.linli.springboot.stu05.dynamicdatasource.dataobject
+  mapper-locations: classpath:mapper/*.xml

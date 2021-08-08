@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -21,13 +22,14 @@
         <module name="stu-04-demo01-authorization-server-with-client-credentials" />
         <module name="stu-04-demo03-authorization-server-by-redis-store" />
         <module name="stu-04-demo02-authorization-server-with-resource-owner-password-credentials" />
+        <module name="stu-05-dynamic-datasource" />
         <module name="stu-04-demo01-authorization-server-with-authorization-code" />
         <module name="stu-04-demo04-resource-server-on-sso" />
         <module name="stu-04-demo02-authorization-server-with-remove-access-and-refresh-token" />
+        <module name="stu-05-dynamic-datasource-baomidou-01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="stu-01" target="1.5" />
       <module name="stu-04-oath2" target="1.8" />
       <module name="stu-04-OAUTH2" target="1.7" />
     </bytecodeTargetLevel>
