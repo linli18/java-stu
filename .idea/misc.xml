@@ -19,13 +19,13 @@
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo03-authorization-server-by-jwt-store/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo04-authorization-server-on-sso/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-oauth2/stu-04-demo04-resource-server-on-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/stu-05-dynamic-datasource/stu-05-dynamic-datasource-baomidou-02/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/java-nio-demo01/pom.xml" />
         <option value="$PROJECT_DIR$/java-nio/pom.xml" />
-        <option value="$PROJECT_DIR$/stu-01/pom.xml" />
         <option value="$PROJECT_DIR$/stu-04-OAUTH2/pom.xml" />
       </set>
     </option>

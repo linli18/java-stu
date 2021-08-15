@@ -26,6 +26,7 @@
         <module name="stu-04-demo01-authorization-server-with-authorization-code" />
         <module name="stu-04-demo04-resource-server-on-sso" />
         <module name="stu-04-demo02-authorization-server-with-remove-access-and-refresh-token" />
+        <module name="stu-05-dynamic-datasource-baomidou-02" />
         <module name="stu-05-dynamic-datasource-baomidou-01" />
       </profile>
     </annotationProcessing>
